@@ -1,0 +1,75 @@
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+  a:hover{
+       color: #35A4E2;
+       text-decoration: underline;
+     }
+
+  .wrapper{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img{
+    max-width: 554px;
+  }
+
+  h1{
+    text-align: center;
+    color: #7A49BA;
+    font-size: 60px;
+    line-height: 1.8em;
+  }
+
+  h2{
+    color: #35A4E2;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  body{
+    text-align: center;
+    background: #C2C4C5;
+    font-family: helvetica, arial, sans-serif;
+    color: #7A49BA;
+    font-size: 1.0em;
+    line-height: 1.2em
+    border: #7A49BA 4px solid;
+  }
+  ol{
+    text-align: center;
+    line-height: 1.5em;
+    background: #E8E7E5;
+    border: #6290E7;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+@media only screen and (min-width: 500px){
+  /*Styles for desktop go here */
+
+  .wrapper{
+    width: 600px;
+  }
+  ol{
+    width: 475px;
+  }
+  img{
+    width: 300px;
+  }
+  .center{
+    width: 600px
+  }
+  h1{
+    width: auto;
+  }
+
+}/* Take note: The media query has its own closing curly brace */
